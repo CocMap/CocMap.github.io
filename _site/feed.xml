@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coc Map&#39;s blog</title>
+    <description></description>
+    <link>https://ntrranf108.github.io/</link>
+    <atom:link href="https://ntrranf108.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 08 Aug 2016 20:21:37 +0700</pubDate>
+    <lastBuildDate>Mon, 08 Aug 2016 20:21:37 +0700</lastBuildDate>
+    <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>Using oh-my-zsh</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Oh-my-zsh is an open source, community-driven framework for managing zsh and it is FREE. It has
+more than 180 optional plugin (rails, git, …) and more than 120 theme for your Terminal
+and an auto-update tool to keep oh-my-zsh up-to-date.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In this tutorial, I will guide you to install it on your PC/laptop. The great thing about this is
+that you can customize your Terminal, add plugins. Unlike the bashrc, which does not look attractive
+and can make it difficult for you to use when working on large IT projects.&lt;/p&gt;
+
+&lt;h2 id=&quot;pre-requisites&quot;&gt;Pre-requisites&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Linux or Mac OSX because Oh-my-zsh works best on Unix-based OS&lt;/li&gt;
+  &lt;li&gt;zsh must be pre-installed. In Mac OSX, it is already pre-installed. On Linux, you will need to type command in the Terminal to install:&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;curl&lt;/strong&gt; or &lt;strong&gt;wget&lt;/strong&gt; must be installed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For &lt;strong&gt;Debian/Ubuntu&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ sudo apt-get install zsh
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;For &lt;strong&gt;Fedora&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ sudo yum install zsh
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;install-oh-my-zsh&quot;&gt;Install oh-my-zsh&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;via &lt;strong&gt;curl&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;via &lt;strong&gt;wget&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;change-default-shell&quot;&gt;Change default shell&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ chsh -s /bin/zsh
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;For some OS, you may need to restart your computer for this to take effect.&lt;/p&gt;
+
+&lt;h2 id=&quot;change-terminal-theme&quot;&gt;Change Terminal theme&lt;/h2&gt;
+
+&lt;p&gt;Now you have successfully installed oh-my-zsh. You will need to change the theme that is suitable for you,
+instead of using the default one. To change it, you will need to modify the &lt;strong&gt;.zshrc&lt;/strong&gt; file:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ cd
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ vim .zshrc
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In this tutorial, I use vim text editor, you can use other text editor if you like. Next, locate this line in
+the file:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+ZSH_THEME=&quot;robbyrussell&quot;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Change the name “robbyrussell” to another name of another theme. You can have a look of all the available themes
+on this &lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh/wiki/Themes&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Finally, just restart the Terminal and you will see the difference.&lt;/p&gt;
+
+&lt;h2 id=&quot;add-plugins&quot;&gt;Add plugins&lt;/h2&gt;
+
+&lt;p&gt;In the &lt;strong&gt;.zshrc&lt;/strong&gt; file, you add this line to it to enable the plugins&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+plugins=(git bundler osx rake ruby)
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can add more or remove plugins if you like. To use the plugins, most of them have README file, which documents how
+to use them.&lt;/p&gt;
+
+&lt;h2 id=&quot;updating-oh-my-zsh&quot;&gt;Updating oh-my-zsh&lt;/h2&gt;
+
+&lt;p&gt;It will update automatically, but if you want to do so manually just simply type this command in Terminal:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ upgrade_oh_my_zsh
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information about oh-my-zsh, you can have a look at this &lt;a href=&quot;http://ohmyz.sh/&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Feb 2016 00:00:00 +0700</pubDate>
+        <link>https://ntrranf108.github.io/tutorials/2016/02/19/using-oh-my-zsh.html</link>
+        <guid isPermaLink="true">https://ntrranf108.github.io/tutorials/2016/02/19/using-oh-my-zsh.html</guid>
+        
+        
+        <category>tutorials</category>
+        
+      </item>
+    
+  </channel>
+</rss>
