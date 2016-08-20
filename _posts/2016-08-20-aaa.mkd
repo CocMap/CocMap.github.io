@@ -1,0 +1,35 @@
+---
+layout: post
+title: Getting Started with OpenCV
+author: CocMap
+categories: [news]
+---
+
+> [SHORT DESCRIPTION - nằm trong sẹc sẹc]: Getting started with OpenCV is the tutorial for computer vision
+> Version 1234 Coc Map cute.
+
+kjghdfjkghjkdfhgjkdfgjhdfjk
+
+[Viết bình thường, không có sẹc sẹc] Coc Map sẹc sẹc
+
+[Mở simulation cho phần đang làm] ctrl + shift + M
+
+## [title] Step 1: Install OpenCV
+
+[In đậm] Text những kí tự trong hai dấu sao **In đậm**
+
+[Insert link cho website]
+
+[Text hiển thị - Click here](https://github.com/CocMap/CocMap.github.io)
+
+[Các tạo bullet points] 1 "-" space space space
+
+-   Step 1
+-   Step 2
+-   Step 3
+
+[Add code]
+
+```
+int main (){}
+```

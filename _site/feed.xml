@@ -5,8 +5,8 @@
     <description></description>
     <link>https://ntrranf108.github.io/</link>
     <atom:link href="https://ntrranf108.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Aug 2016 15:50:53 +0700</pubDate>
-    <lastBuildDate>Sat, 20 Aug 2016 15:50:53 +0700</lastBuildDate>
+    <pubDate>Sat, 20 Aug 2016 16:07:43 +0700</pubDate>
+    <lastBuildDate>Sat, 20 Aug 2016 16:07:43 +0700</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -46,6 +46,49 @@ $ fjasdklflksd
         <pubDate>Sat, 20 Aug 2016 00:00:00 +0700</pubDate>
         <link>https://ntrranf108.github.io/news/2016/08/20/testing-service.html</link>
         <guid isPermaLink="true">https://ntrranf108.github.io/news/2016/08/20/testing-service.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Getting Started with OpenCV</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Version 1234 Coc Map cute.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;kjghdfjkghjkdfhgjkdfgjhdfjk&lt;/p&gt;
+
+&lt;p&gt;[Viết bình thường, không có sẹc sẹc] Coc Map sẹc sẹc&lt;/p&gt;
+
+&lt;p&gt;[Mở simulation cho phần đang làm] ctrl + shift + M&lt;/p&gt;
+
+&lt;h2 id=&quot;title-step-1-install-opencv&quot;&gt;[title] Step 1: Install OpenCV&lt;/h2&gt;
+
+&lt;p&gt;[In đậm] Text những kí tự trong hai dấu sao &lt;strong&gt;In đậm&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[Insert link cho website]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/CocMap/CocMap.github.io&quot;&gt;Text hiển thị - Click here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[Các tạo bullet points] 1 “-“ space space space&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1&lt;/li&gt;
+  &lt;li&gt;Step 2&lt;/li&gt;
+  &lt;li&gt;Step 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[Add code]&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+int main (){}
+&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Aug 2016 00:00:00 +0700</pubDate>
+        <link>https://ntrranf108.github.io/news/2016/08/20/aaa.html</link>
+        <guid isPermaLink="true">https://ntrranf108.github.io/news/2016/08/20/aaa.html</guid>
         
         
         <category>news</category>
