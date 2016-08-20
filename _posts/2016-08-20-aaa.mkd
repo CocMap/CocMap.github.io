@@ -6,7 +6,9 @@ categories: [news]
 ---
 
 > [SHORT DESCRIPTION - nằm trong sẹc sẹc]: Getting started with OpenCV is the tutorial for computer vision
-> Version 1234 Coc Map cute
+> Version 1234 Coc Map cute.
+
+
 
 [Viết bình thường, không có sẹc sẹc] Coc Map sẹc sẹc
 
