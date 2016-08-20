@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with OpenCV
-author: cocmap
+author: CocMap
 categories: [news]
 ---
 
@@ -27,3 +27,9 @@ kjghdfjkghjkdfhgjkdfgjhdfjk
 -   Step 1
 -   Step 2
 -   Step 3
+
+[Add code]
+
+```
+int main (){}
+```
