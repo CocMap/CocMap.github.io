@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Getting Started with OpenCV
-author: Coc Map
+author: cocmap
 categories: [news]
 ---
 
 > [SHORT DESCRIPTION - nằm trong sẹc sẹc]: Getting started with OpenCV is the tutorial for computer vision
 > Version 1234 Coc Map cute.
 
-
+kjghdfjkghjkdfhgjkdfgjhdfjk
 
 [Viết bình thường, không có sẹc sẹc] Coc Map sẹc sẹc
 
