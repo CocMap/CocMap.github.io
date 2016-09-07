@@ -30,6 +30,23 @@ fds lkjf lksdaj flksdj  h sf kjsa jks dkf akjs a
 -   Step 2
 -   Step 3
 
+
 ```
 $ fjasdklflksd
 ```
+
+{% highlight Javascript %}
+var fs = require("fs"); // call fs package
+
+// Read file from input.txt, assume it has 1 line "Hello world".
+fs.readFile('input.txt', function (err, data) {
+    // Return error.
+    if (err){
+        console.log(err.stack);
+        return;
+    }
+    console.log(data.toString());
+});
+
+console.log("Program Ended");
+{% endhighlight %}
