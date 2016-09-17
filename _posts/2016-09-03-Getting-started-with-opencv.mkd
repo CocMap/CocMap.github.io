@@ -1,0 +1,31 @@
+---
+layout: post
+title: Getting Started with OpenCV
+author: CocMap
+categories: [news]
+---
+
+> Getting started with image processing as well as computer vision is not a big deal anymore. Let's start with OpenCV with some simple tutorial.
+> In this post, let's begin with **Install software** and **Create new file**
+
+## Part 1: Install Software
+Before playing around with interesting Image processing "games", we need to install some pieces of software:
+-   **MinGW (Minimalist GNU for Windows)**: C++ compiler.
+-   **Eclipse CDT**: C/C++ development tool or an IDE (integrated development environment). It is a software application, basically has Code editor, build automation tool (compiler and automated tests) and debugger.
+-   **OpenCV Version 3.1**: library of programing functions that is mainly used for real-time computer vision.
+
+If you haven't had any software above, here is the fully instruction for you to download and install:
+
+**MinGW**
+-   Download and install **MinGW** -> [Click Here](http://www.mingw.org/)
+-   Click the **Download Installer** in the top right corner
+-   Tick everything **except "ada" and "fortan"**
+-   Click **Menu -> Installation -> Apply change -> ** click **Apply**
+
+**Eclipse CDT**
+-   Download and install **Eclipse** -> [Click Here](http://www.eclipse.org/cdt/)
+
+**OpenCV**
+-   
+
+## Part
